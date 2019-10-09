@@ -1,0 +1,42 @@
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: white;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.playerContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+}
+
+.playerContainer img {
+  padding-left: 10px;
+}
+
+.listContainer h1 {
+  margin-bottom: 0px;
+}
+
+.onlineDot {
+  width: 10px;
+  height: 10px;
+  background: #32ff13;
+  border-radius: 100%;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .listContainer {
+    display: none;
+  }
+}

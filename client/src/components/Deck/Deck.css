@@ -1,0 +1,50 @@
+.deck {
+  min-width: 200px;
+  max-width: 200px;
+  height: 300px;
+  margin: 0 10px;
+  border-radius: 10px;
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  overflow: hidden;
+  z-index: 1;
+  text-align: center;
+  position: absolute;
+  bottom: 300px;
+  right: 410px;
+}
+
+.deckImage {
+  width: 150px;
+  margin-top:35%;
+}
+
+.deckText {
+  font-family: "Black Ops One", sans-serif;
+  font-size: 50px;
+  color: #c61b1b7a;
+  position: relative;
+  top: -70px;
+  left: -20px;
+  line-height: 0.7;
+  width: 225px;
+  overflow-wrap: break-word;
+  user-select: none;
+}
+
+.form {
+  display: flex;
+}
+
+/* GET RID OF THIS */
+.input {
+  border-radius: 0;
+  padding: 5%;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+.hidden {
+  visibility: hidden;
+}
+/* END OF GET RID OF THIS */

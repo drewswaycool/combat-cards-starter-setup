@@ -1,0 +1,109 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.lobbyContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #1A1A1D;
+}
+
+.lobbyInnerContainer {
+  width: 20%;
+}
+
+.lobbyInput {
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 85%;
+  border: none;
+}
+
+.combatCardsTitle {
+  font-family: "Black Ops One", sans-serif;
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+}
+
+.joinButton {
+  background:none;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  transition: .2s;
+}
+
+.joinButton:hover {
+  cursor: pointer;
+  transition: .2s;
+  transform: scale(1.2);
+}
+
+.fistImage {
+  width: 100px;
+  position: relative;
+  top: 4px;
+}
+
+.fireRing {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  animation: float 6s ease-in-out infinite;
+  display: inline-block;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  background-position: center;
+}
+
+.fireRing:hover {
+  background-size: 200px;
+  background-image:url('../images/fire.gif');
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .lobbyContainer {
+    height: 100%;
+  }
+
+  .lobbyInnerContainer {
+    width: 90%;
+  }
+}
+
+/*  Helpers  */
+/* ********* */
+.mt-20 {
+  margin-top: 20px;
+}
+
+button:focus {
+  outline: 0;
+}

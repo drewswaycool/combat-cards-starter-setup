@@ -1,0 +1,55 @@
+.card {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  background: rgb(208, 149, 208);
+  margin: 0 10px;
+}
+
+.cardImage {
+  width: 120px;
+  margin-top: 20px;
+}
+
+.detailWrapper {
+  width: 100%;
+  height: 75px;
+  background: #fff;
+  margin-top: 25px;
+  padding-top:5px;
+}
+
+.cardTitle {
+  font-family: "Black Ops One", sans-serif;
+  color: #717171;
+  font-size: 20px;
+}
+
+.cardDescription {
+  font-style: italic;
+  font-size: 15px;
+  color: #ccc;
+}
+
+.blue-bg {
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  border-radius: 10px;
+  height: 300px;
+}
+
+.red-bg {
+  background: linear-gradient(90deg, #00c9ff 0%, #e0ffe3 100%);
+  border-radius: 10px;
+  height: 300px;
+}
+
+.green-bg {
+  background: linear-gradient(90deg, #fff64a 0%, #85491e 100%);
+  border-radius: 10px;
+  height: 300px;}
+
+.gold-bg {
+  background: linear-gradient(90deg, #7233d5 0%, #712291 100%);
+  border-radius: 10px;
+  height: 300px;
+}
