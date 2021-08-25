@@ -1,4 +1,4 @@
-## combat-cards-starter
+## [archived] combat-cards-starter
 
 This is an experiment based largely on https://github.com/adrianhajdin/project_chat_application
 
